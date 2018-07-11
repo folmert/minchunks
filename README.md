@@ -31,3 +31,25 @@ module.exports = {
     }
 };
 ```
+
+Output from vue inspect:
+
+```
+splitChunks: {
+      cacheGroups: {
+        vendors: {
+          name: 'chunk-vendors',
+          test: /[\\\/]node_modules[\\\/]/,
+          priority: -10,
+          chunks: 'initial'
+        }
+      },
+      chunks: 'all',
+      minSize: 1,
+      minChunks: 1,
+      maxAsyncRequests: 50,
+      maxInitialRequests: 30,
+      name: function () { /* omitted long function */ }
+    }
+  },
+```

@@ -80,16 +80,17 @@
                 </a>
             </li>
         </ul>
-        <cio></cio>
+        <!--<cio></cio>-->
     </div>
 </template>
 
 <script>
-import cio from './ComponentImportedOnce.vue';
+//import cio from './ComponentImportedOnce.vue';
+
 
 export default {
     name: 'HelloWorld',
-    components: {cio},
+    //components: {cio},
     data () {
         return {
             msg: 'Welcome to Your Vue.js App'
